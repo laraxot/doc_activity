@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
-  <loc>https://jigsaw-docs-template.tighten.co</loc>
-  <lastmod>2023-10-18T10:52:43+00:00</lastmod>
+  <loc>https://laraxot.github.io/doc_activity/docs/custom-404-page</loc>
+  <lastmod>2023-10-18T16:48:09+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-docs-template.tighten.co/docs/getting-started</loc>
-  <lastmod>2023-10-18T10:52:43+00:00</lastmod>
+  <loc>https://laraxot.github.io/doc_activity/docs/customizing-your-site</loc>
+  <lastmod>2023-10-18T16:48:09+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-docs-template.tighten.co/docs/algolia-docsearch</loc>
-  <lastmod>2023-10-18T10:52:43+00:00</lastmod>
+  <loc>https://laraxot.github.io/doc_activity/docs/navigation</loc>
+  <lastmod>2023-10-18T16:48:09+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-docs-template.tighten.co/docs/customizing-your-site</loc>
-  <lastmod>2023-10-18T10:52:43+00:00</lastmod>
+  <loc>https://laraxot.github.io/doc_activity/docs/getting-started</loc>
+  <lastmod>2023-10-18T16:48:09+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-docs-template.tighten.co/docs/navigation</loc>
-  <lastmod>2023-10-18T10:52:43+00:00</lastmod>
+  <loc>https://laraxot.github.io/doc_activity/docs/algolia-docsearch</loc>
+  <lastmod>2023-10-18T16:48:09+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://jigsaw-docs-template.tighten.co/docs/custom-404-page</loc>
-  <lastmod>2023-10-18T10:52:43+00:00</lastmod>
+  <loc>https://laraxot.github.io/doc_activity</loc>
+  <lastmod>2023-10-18T16:48:09+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>
