@@ -17,6 +17,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
+    - name: Update Dependencies
+      run: composer update
+
     - name: Validate composer.json and composer.lock
       run: composer validate
 

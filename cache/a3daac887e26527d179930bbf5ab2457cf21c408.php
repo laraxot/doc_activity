@@ -24,7 +24,7 @@
     <title><?php echo e($page->siteName); ?><?php echo e($page->title ? ' | ' . $page->title : ''); ?></title>
 
     <link rel="home" href="<?php echo e($page->baseUrl); ?>">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="<?php echo e($page->baseUrl); ?>/favicon.ico">
 
     <?php echo $__env->yieldPushContent('meta'); ?>
 
@@ -34,7 +34,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
         rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo e(mix('css/main.css', 'doc_activity/assets/build')); ?>">
+    <link rel="stylesheet" href="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('css/main.css', 'assets/build')); ?>">
 
     <?php if($page->docsearchApiKey && $page->docsearchIndexName): ?>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -67,7 +67,7 @@
         <?php echo $__env->yieldContent('body'); ?>
     </main>
 
-    <script src="<?php echo e(mix('js/main.js', 'doc_activity/assets/build')); ?>"></script>
+    <script src="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('js/main.js', 'assets/build')); ?>"></script>
 
     <?php echo $__env->yieldPushContent('scripts'); ?>
 
