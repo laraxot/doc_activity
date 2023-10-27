@@ -30,7 +30,7 @@
     <link rel="home" href="{{ $page->baseUrl }}">
     <link rel="icon" href="{{ $page->baseUrl }}/favicon.ico">
 
-    [{{ $page->baseUrl }}][{{ $page->url('/favicon.ico') }}][{{ $page->getUrl('/favicon.ico') }}]
+    {{-- [{{ $page->baseUrl }}][{{ $page->url('/favicon.ico') }}][{{ $page->getUrl('/favicon.ico') }}] --}}
 
     @stack('meta')
 
