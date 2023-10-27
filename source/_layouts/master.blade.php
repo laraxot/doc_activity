@@ -33,6 +33,9 @@
     <link rel="icon" href="{{ $page->baseUrl }}/favicon.ico">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e297ead (.)
     {{-- [{{ $page->baseUrl }}][{{ $page->url('/favicon.ico') }}][{{ $page->getUrl('/favicon.ico') }}] --}}
 
     @stack('meta')
