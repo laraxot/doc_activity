@@ -10,7 +10,11 @@ return [
             'Navigation' => 'docs/navigation',
             'Algolia DocSearch' => 'docs/algolia-docsearch',
             'Custom 404 Page' => 'docs/custom-404-page',
+<<<<<<< HEAD
             'Test Page' => 'doc_activity/docs/test',
+=======
+            'Test Page' => 'doc_activity/docs/page-test',
+>>>>>>> b5f82e01 (.)
         ],
     ],
     'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
