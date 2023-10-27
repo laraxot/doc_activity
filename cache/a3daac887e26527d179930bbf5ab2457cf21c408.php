@@ -26,13 +26,19 @@
     <link rel="home" href="<?php echo e($page->baseUrl); ?>">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6f3efd75 (rebase)
     <link rel="icon" href="<?php echo e($page->baseUrl); ?>/favicon.ico">
 =======
     <link rel="icon" href="/favicon.ico">
 >>>>>>> a6f39131 (.)
+<<<<<<< HEAD
 =======
     <link rel="icon" href="<?php echo e($page->baseUrl); ?>/favicon.ico">
 >>>>>>> d355dd15 (.)
+=======
+>>>>>>> 6f3efd75 (rebase)
 
     <?php echo $__env->yieldPushContent('meta'); ?>
 
@@ -44,13 +50,19 @@
         rel="stylesheet">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6f3efd75 (rebase)
     <link rel="stylesheet" href="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('css/main.css', 'assets/build')); ?>">
 =======
     <link rel="stylesheet" href="<?php echo e(mix('css/main.css', 'doc_activity/assets/build')); ?>">
 >>>>>>> a6f39131 (.)
+<<<<<<< HEAD
 =======
     <link rel="stylesheet" href="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('css/main.css', 'assets/build')); ?>">
 >>>>>>> d355dd15 (.)
+=======
+>>>>>>> 6f3efd75 (rebase)
 
     <?php if($page->docsearchApiKey && $page->docsearchIndexName): ?>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -85,13 +97,19 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6f3efd75 (rebase)
     <script src="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('js/main.js', 'assets/build')); ?>"></script>
 =======
     <script src="<?php echo e(mix('js/main.js', 'doc_activity/assets/build')); ?>"></script>
 >>>>>>> a6f39131 (.)
+<<<<<<< HEAD
 =======
     <script src="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('js/main.js', 'assets/build')); ?>"></script>
 >>>>>>> d355dd15 (.)
+=======
+>>>>>>> 6f3efd75 (rebase)
 
     <?php echo $__env->yieldPushContent('scripts'); ?>
 
