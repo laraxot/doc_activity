@@ -4,6 +4,7 @@ vendor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 67ce5963 (rebase)
 /node_modules
@@ -20,3 +21,6 @@ vendor
 >>>>>>> 8d8811db (rebase)
 =======
 >>>>>>> 67ce5963 (rebase)
+=======
+/node_modules
+>>>>>>> c6fcd734 (.)

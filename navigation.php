@@ -14,6 +14,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 55feb6d3 (rebase)
 =======
@@ -34,6 +35,9 @@ return [
             'Test Page' => 'doc_activity/docs/test',
 >>>>>>> 187dd0fc (.)
 >>>>>>> 5794555a (rebase)
+=======
+            'Test Page' => 'doc_activity/docs/test',
+>>>>>>> c6fcd734 (.)
         ],
     ],
     'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
