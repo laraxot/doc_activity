@@ -28,7 +28,7 @@
     <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
     <link rel="home" href="{{ $page->baseUrl }}">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="{{ $page->baseUrl }}/favicon.ico">
 
     @stack('meta')
 
@@ -38,6 +38,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
         rel="stylesheet">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <link rel="stylesheet" href="{{ url('assets/build/css/main.css') }}">
 
@@ -58,6 +59,9 @@
 
 =======
     <link rel="stylesheet" href="{{ mix('css/main.css', 'doc_activity/assets/build') }}">
+=======
+    <link rel="stylesheet" href="{{ $page->baseUrl }}/{{ mix('css/main.css', 'assets/build') }}">
+>>>>>>> a6f39131 (.)
 
     @if ($page->docsearchApiKey && $page->docsearchIndexName)
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -92,10 +96,14 @@
     </main>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <script src="{{ url('assets/build/js/main.js') }}"></script>
 =======
     <script src="{{ mix('js/main.js', 'doc_activity/assets/build') }}"></script>
 >>>>>>> 03337a71 (.)
+=======
+    <script src="{{ $page->baseUrl }}/{{ mix('js/main.js', 'assets/build') }}"></script>
+>>>>>>> a6f39131 (.)
 
     @stack('scripts')
 
