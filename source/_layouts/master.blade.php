@@ -50,14 +50,7 @@
                 <a href="{{ $page->getUrl() }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
                     <img class="h-8 md:h-10 mr-3" src="{{ $page->url('/assets/img/logo.svg') }}" alt="{{ $page->siteName }} logo" />
 
-=======
-    <link rel="icon" href="/favicon.ico">
-=======
     <link rel="icon" href="{{ $page->baseUrl }}/favicon.ico">
->>>>>>> a6f39131 (.)
-=======
-    [{{ $page->baseUrl }}][{{ $page->url('/favicon.ico') }}][{{ $page->getUrl('/favicon.ico') }}]
->>>>>>> 59dfed08 (.)
 
     @stack('meta')
 
@@ -81,7 +74,6 @@
                 <a href="{{ $page->getUrl() }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
                     <img class="h-8 md:h-10 mr-3" src="{{ $page->url('/assets/img/logo.svg') }}" alt="{{ $page->siteName }} logo" />
 
->>>>>>> 03337a71 (.)
                     <h1 class="text-lg md:text-2xl text-blue-900 font-semibold hover:text-blue-600 my-0 pr-4">
                         {{ $page->siteName }}</h1>
                 </a>
