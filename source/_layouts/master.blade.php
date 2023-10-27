@@ -29,6 +29,7 @@
 
     <link rel="home" href="{{ $page->baseUrl }}">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link rel="icon" href="{{ $page->baseUrl }}/favicon.ico">
 
     {{-- [{{ $page->baseUrl }}][{{ $page->url('/favicon.ico') }}][{{ $page->getUrl('/favicon.ico') }}] --}}
@@ -82,6 +83,9 @@
 =======
 =======
     <link rel="icon" href="/favicon.ico">
+=======
+    <link rel="icon" href="{{ $page->baseUrl }}/favicon.ico">
+>>>>>>> a6f39131 (.)
 
     @stack('meta')
 
@@ -91,7 +95,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'doc_activity/assets/build') }}">
+    <link rel="stylesheet" href="{{ $page->baseUrl }}/{{ mix('css/main.css', 'assets/build') }}">
 
     @if ($page->docsearchApiKey && $page->docsearchIndexName)
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -129,6 +133,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <script src="{{ url('assets/build/js/main.js') }}"></script>
 =======
     <script src="{{ mix('js/main.js', 'doc_activity/assets/build') }}"></script>
@@ -137,11 +142,19 @@
     <script src="{{ $page->baseUrl }}/{{ mix('js/main.js', 'assets/build') }}"></script>
 >>>>>>> a6f39131 (.)
 =======
+=======
+>>>>>>> 6f3efd75 (rebase)
     <script src="{{ $page->baseUrl }}/{{ mix('js/main.js', 'assets/build') }}"></script>
 =======
     <script src="{{ mix('js/main.js', 'doc_activity/assets/build') }}"></script>
 >>>>>>> 03337a71 (.)
+<<<<<<< HEAD
 >>>>>>> 45626b53 (rebase)
+=======
+=======
+    <script src="{{ $page->baseUrl }}/{{ mix('js/main.js', 'assets/build') }}"></script>
+>>>>>>> a6f39131 (.)
+>>>>>>> 6f3efd75 (rebase)
 
     @stack('scripts')
 
