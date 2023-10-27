@@ -24,15 +24,7 @@
     <title><?php echo e($page->siteName); ?><?php echo e($page->title ? ' | ' . $page->title : ''); ?></title>
 
     <link rel="home" href="<?php echo e($page->baseUrl); ?>">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <link rel="icon" href="<?php echo e($page->baseUrl); ?>/favicon.ico">
-=======
-    <link rel="icon" href="/favicon.ico">
->>>>>>> a6f39131 (.)
-=======
-    <link rel="icon" href="<?php echo e($page->baseUrl); ?>/favicon.ico">
->>>>>>> d355dd15 (.)
 
     <?php echo $__env->yieldPushContent('meta'); ?>
 
@@ -42,15 +34,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
         rel="stylesheet">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <link rel="stylesheet" href="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('css/main.css', 'assets/build')); ?>">
-=======
-    <link rel="stylesheet" href="<?php echo e(mix('css/main.css', 'doc_activity/assets/build')); ?>">
->>>>>>> a6f39131 (.)
-=======
-    <link rel="stylesheet" href="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('css/main.css', 'assets/build')); ?>">
->>>>>>> d355dd15 (.)
 
     <?php if($page->docsearchApiKey && $page->docsearchIndexName): ?>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -83,15 +67,7 @@
         <?php echo $__env->yieldContent('body'); ?>
     </main>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     <script src="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('js/main.js', 'assets/build')); ?>"></script>
-=======
-    <script src="<?php echo e(mix('js/main.js', 'doc_activity/assets/build')); ?>"></script>
->>>>>>> a6f39131 (.)
-=======
-    <script src="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('js/main.js', 'assets/build')); ?>"></script>
->>>>>>> d355dd15 (.)
 
     <?php echo $__env->yieldPushContent('scripts'); ?>
 
