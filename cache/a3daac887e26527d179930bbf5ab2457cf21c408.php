@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f3efd75 (rebase)
 =======
@@ -48,6 +49,9 @@
     <link rel="icon" href="<?php echo e($page->baseUrl); ?>/favicon.ico">
 >>>>>>> d355dd15 (.)
 >>>>>>> 5622e9d0 (rebase)
+=======
+    <link rel="icon" href="<?php echo e($page->baseUrl); ?>/favicon.ico">
+>>>>>>> 5884d1ba (.)
 
     <?php echo $__env->yieldPushContent('meta'); ?>
 
@@ -57,6 +61,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
         rel="stylesheet">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,6 +86,9 @@
     <link rel="stylesheet" href="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('css/main.css', 'assets/build')); ?>">
 >>>>>>> d355dd15 (.)
 >>>>>>> 5622e9d0 (rebase)
+=======
+    <link rel="stylesheet" href="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('css/main.css', 'assets/build')); ?>">
+>>>>>>> 5884d1ba (.)
 
     <?php if($page->docsearchApiKey && $page->docsearchIndexName): ?>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -117,6 +125,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f3efd75 (rebase)
 =======
@@ -137,6 +146,9 @@
     <script src="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('js/main.js', 'assets/build')); ?>"></script>
 >>>>>>> d355dd15 (.)
 >>>>>>> 5622e9d0 (rebase)
+=======
+    <script src="<?php echo e($page->baseUrl); ?>/<?php echo e(mix('js/main.js', 'assets/build')); ?>"></script>
+>>>>>>> 5884d1ba (.)
 
     <?php echo $__env->yieldPushContent('scripts'); ?>
 
