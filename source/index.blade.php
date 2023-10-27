@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a href="{{ $page->getUrl('/docs/getting-started') }}" title="{{ $page->siteName }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started</a>
 >>>>>>> 8e34e91d (.)
 =======
@@ -30,11 +31,19 @@
                 <a href="{{ $page->url('/docs/getting-started') }}" title="{{ $page->siteName }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started!</a>
 >>>>>>> 4e5ef5e2 (.)
 =======
+=======
+>>>>>>> 88721da7 (rebase)
                 <a href="{{ $page->url('/docs/getting-started') }}" title="{{ $page->siteName }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started!</a>
 =======
                 <a href="{{ $page->getUrl('/docs/getting-started') }}" title="{{ $page->siteName }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started</a>
 >>>>>>> 8e34e91d (.)
+<<<<<<< HEAD
 >>>>>>> 48740912 (rebase)
+=======
+=======
+                <a href="{{ $page->getUrl('/docs/getting-started') }}" title="{{ $page->siteName }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started!</a>
+>>>>>>> cac79d6d (.)
+>>>>>>> 88721da7 (rebase)
 
                     <a href="https://jigsaw.tighten.co" title="Jigsaw by Tighten"
                         class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded py-2 px-6">About
