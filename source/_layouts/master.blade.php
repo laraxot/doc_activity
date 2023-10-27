@@ -24,14 +24,8 @@
     <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
     <link rel="home" href="{{ $page->baseUrl }}">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <link rel="icon" href="{{ $page->baseUrl }}/favicon.ico">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6e297ead (.)
     {{-- [{{ $page->baseUrl }}][{{ $page->url('/favicon.ico') }}][{{ $page->getUrl('/favicon.ico') }}] --}}
 
     @stack('meta')
@@ -107,15 +101,7 @@
         @yield('body')
     </main>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     <script src="{{ $page->baseUrl }}/{{ mix('js/main.js', 'assets/build') }}"></script>
-=======
-    <script src="{{ mix('js/main.js', 'doc_activity/assets/build') }}"></script>
->>>>>>> 03337a71 (.)
-=======
-    <script src="{{ $page->baseUrl }}/{{ mix('js/main.js', 'assets/build') }}"></script>
->>>>>>> a6f39131 (.)
 
     @stack('scripts')
 
