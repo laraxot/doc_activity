@@ -2,9 +2,15 @@ vendor
 *.lock
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /node_modules
 =======
 >>>>>>> 6c04251b (.)
 =======
 /node_modules
 >>>>>>> e213b68c (.)
+=======
+/node_modules
+=======
+>>>>>>> 6c04251b (.)
+>>>>>>> 8d8811db (rebase)
