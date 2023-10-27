@@ -69,5 +69,40 @@
                     tech with just a few lines of code.</p>
             </div>
         </div>
+<<<<<<< HEAD
     </section>
+=======
+
+        <img src="{{ $page->baseUrl }}/assets/img/logo-large.svg" alt="{{ $page->siteName }} large logo" class="mx-auto mb-6 lg:mb-0 ">
+    </div>
+
+    <hr class="block my-8 border lg:hidden">
+
+    <div class="md:flex -mx-2 -mx-4">
+        <div class="mb-8 mx-3 px-2 md:w-1/3">
+            <img src="{{ $page->baseUrl }}/assets/img/icon-window.svg" class="h-12 w-12" alt="window icon">
+
+            <h3 id="intro-laravel" class="text-2xl text-blue-900 mb-0">Templating with <br>Laravel's Blade engine</h3>
+
+            <p>Blade is a powerful, simple, and beautiful templating language, and now you can use it for your static sites, not just your Laravel-powered apps.</p>
+        </div>
+
+        <div class="mb-8 mx-3 px-2 md:w-1/3">
+            <img src="{{ $page->baseUrl }}/assets/img/icon-terminal.svg" class="h-12 w-12" alt="terminal icon">
+
+            <h3 id="intro-markdown" class="text-2xl text-blue-900 mb-0">Use Markdown for <br>content-driven pages</h3>
+
+            <p>Markdown is the web’s leading format for writing articles, blog posts, documentation, and more. Jigsaw makes it painless to work with Markdown content.</p>
+        </div>
+
+        <div class="mx-3 px-2 md:w-1/3">
+            <img src="{{ $page->baseUrl }}/assets/img/icon-stack.svg" class="h-12 w-12" alt="stack icon">
+
+            <h3 id="intro-mix" class="text-2xl text-blue-900 mb-0">Compile your assets <br>using Laravel Mix </h3>
+
+            <p>Jigsaw comes pre-configured with Laravel Mix, a simple and powerful build tool. Use the latest frontend tech with just a few lines of code.</p>
+        </div>
+    </div>
+</section>
+>>>>>>> 47d8dbfd (.)
 @endsection
